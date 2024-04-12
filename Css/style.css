@@ -1,0 +1,59 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Container styles */
+#weather-app {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Weather info styles */
+#weather-info {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#weather-info h2 {
+  font-size: 2.5rem;
+}
+
+#weather-info p {
+  font-size: 1.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  #weather-app {
+    margin: 1rem auto;
+  }
+
+  #weather-info h2 {
+    font-size: 2rem;
+  }
+
+  #weather-info p {
+    font-size: 1.2rem;
+  }
+}
